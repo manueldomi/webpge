@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.6; }
+
+a {
+  text-decoration: none;
+  color: #ffbc00; }
+
+ul {
+  list-style: none; }
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+img {
+  width: 100%; }
