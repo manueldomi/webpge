@@ -1,3 +1,9 @@
+.container {
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -21,3 +27,37 @@ h4 {
 
 img {
   width: 100%; }
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+
+ul {
+  display: flex; }
+
+li {
+  padding: 1rem 1.5rem; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s; }
+  a:hover {
+    border-color: #f4f4f4; }
+  a.current {
+    border-color: #f4f4f4; }
+
+#header-home {
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: #ffffff; }
